@@ -1,0 +1,17 @@
+what is fetch: is an alternatuve to the XHR
+XHR: XMLHttpRequest=> output is object
+steps:
+request, open, send, onload
+
+syntax :
+fetch("api url")
+fetch always returns a promise. 
+inside the promise, the data which we are having is a readable stream.
+we have to change this format (json format)
+for get json format we are using .json() method
+
+write a code to print the countries in the asia region using fetch.
+
+for the above code print the sum of total population of the countries in asia region?
+
+for the above mentioned api, print TN state's confirmed,deceased,recovered,tested using fetch.
